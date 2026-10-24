@@ -1,0 +1,16 @@
+# Penlet
+
+> Penlet is an Android app to fill in and sign PDF forms on your phone. Type text, pick a date, tick boxes and place a hand-drawn signature, then save a new PDF and share it. No account, no ads and no tracking: documents, profile and signature stay on the phone. Free to open, fill in and preview; save and share twice free, then NOK 49 once (no subscription). Available in English and Norwegian. Android only for now.
+
+## Pages
+
+- [Penlet (English)](https://penlet.app/en/): features, price and FAQ
+- [Penlet (norsk)](https://penlet.app/): funksjoner, pris og spørsmål og svar
+- [Privacy policy](https://penlet.app/en/privacy/): what is stored on the phone and which Google services are used
+- [Personvernerklæring](https://penlet.app/personvern/)
+
+## Facts
+
+- The signature is a hand-drawn signature placed in the PDF. It is not a certificate-based electronic signature.
+- The original file is never changed; Penlet always saves a new PDF.
+- Contact: hei@penlet.app
