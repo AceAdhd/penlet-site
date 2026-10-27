@@ -11,4 +11,3 @@ shot() { # template width height output
 }
 shot og-nb.html 1200 630 og.png
 shot og-en.html 1200 630 og-en.png
-for s in 48 180 192 512; do shot icon-$s.html $s $s icon-$s.png; done

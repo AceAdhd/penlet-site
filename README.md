@@ -1,6 +1,6 @@
 # penlet.app
 
-Nettsiden for Android-appen Penlet. Ren HTML og CSS, ingen JavaScript, ingen byggesteg.
+Nettsiden for Android-appen Penlet. Ren HTML og CSS, ingen JavaScript, ingen byggesteg. All bevegelse er CSS: skjemaet i hero-en fylles ut med keyframes, resten er scroll-drevne animasjoner (`animation-timeline: view()`) bak `@supports`, så nettlesere uten støtte viser siden stille. `prefers-reduced-motion` skrur bevegelsen av.
 
 ## Mapper
 
@@ -11,7 +11,7 @@ Nettsiden for Android-appen Penlet. Ren HTML og CSS, ingen JavaScript, ingen byg
   - `404.html`, `robots.txt`, `sitemap.xml`, `site.webmanifest`, `llms.txt`
   - `<nøkkel>.txt` – IndexNow-nøkkelen (samme som `tools/indexnow-key.txt`)
   - `assets/` – stilark, skrifter (lokale, OFL), ikon og delingsbilder
-- `tools/` – maler for delingsbildene (`og.png`, `og-en.png`) og PNG-ikonene. Kjør `sh render.sh` i `tools/` etter at tekst eller design er endret. `_headers.cloudflare` er sikkerhetshoder til bruk hvis siden flyttes til Cloudflare Pages eller Netlify (GitHub Pages leser dem ikke).
+- `tools/` – maler for delingsbildene (`og.png`, `og-en.png`). Kjør `sh render.sh` i `tools/` etter at tekst eller design er endret. Ikonene lages av `python make-icons.py` i `tools/` fra `penlet-icon.webp` (det offisielle Penlet-ikonet, samme fil som `store/penlet-icon.webp` i app-repoet) – ikke tegn ikoner for hånd. `_headers.cloudflare` er sikkerhetshoder til bruk hvis siden flyttes til Cloudflare Pages eller Netlify (GitHub Pages leser dem ikke).
 
 ## Se siden lokalt
 
