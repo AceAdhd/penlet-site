@@ -1,6 +1,6 @@
 # penlet.app
 
-Nettsiden for Android-appen Penlet. Ren HTML og CSS, ingen JavaScript, ingen byggesteg. All bevegelse er CSS: skjemaet i hero-en fylles ut med keyframes, resten er scroll-drevne animasjoner (`animation-timeline: view()`) bak `@supports`, så nettlesere uten støtte viser siden stille. `prefers-reduced-motion` skrur bevegelsen av.
+Nettsiden for appen Penlet (PDF: fylle ut, signere og ordne sider; appen ligger i `X:\App Prodjects\Ark`, app-id `no.arkpdf.app`). Ren HTML og CSS, ingen JavaScript, ingen byggesteg. All bevegelse er CSS: skjemaet i hero-en fylles ut med keyframes, resten er scroll-drevne animasjoner (`animation-timeline: view()`) bak `@supports`, så nettlesere uten støtte viser siden stille. `prefers-reduced-motion` skrur bevegelsen av.
 
 ## Mapper
 
@@ -44,10 +44,12 @@ Etter endringer som påvirker sider: varsle Bing/IndexNow med
 ## Når appen er publisert i Google Play
 
 Bytt ut `<span class="btn btn-soon">` i `public/index.html` og `public/en/index.html` med en lenke til
-`https://play.google.com/store/apps/details?id=com.solberg.pdfleser`.
+`https://play.google.com/store/apps/details?id=no.arkpdf.app`.
 
 ## Må stemme med appen
 
-- Personvernerklæringen beskriver appen slik den er i v1.11. Endres det hva appen lagrer eller sender, må `personvern/` og `en/privacy/` oppdateres samtidig, og datoen øverst endres.
-- Utviklernavnet i «Hvem som står bak» må være det samme som i Google Play Console.
+- Personvernerklæringen er den samme som `store/personvern.md` og `store/privacy.md` i app-repoet (pluss avsnitt om krasjrapporter, kontakt, nettstedet og rettigheter). Endres det hva appen lagrer eller sender, må begge steder oppdateres samtidig, og datoen øverst endres.
+- Funksjonslisten følger butikkteksten i `store/play-listing.md` i app-repoet. Ordet «skann» brukes ikke: skriv «ta bilde av».
+- Ingen priser på siden før prismodellen er bestemt.
+- Utviklernavnet i «Hvem som står bak» (Trolda AS) må være det samme som i Google Play Console. Kontaktadressen på siden er hei@penlet.app; butikkens `privacy.md` har d.solberg@outlook.com – velg én før innsending.
 - Ordlyd om signatur: «Tegn signaturen din og sett den inn i en PDF.» Ikke «juridisk bindende» eller lignende.

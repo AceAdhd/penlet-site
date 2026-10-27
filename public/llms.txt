@@ -1,16 +1,17 @@
 # Penlet
 
-> Penlet is an Android app to fill in and sign PDF forms on your phone. Type text, pick a date, tick boxes and place a hand-drawn signature, then save a new PDF and share it. No account, no ads and no tracking: documents, profile and signature stay on the phone. Available in English and Norwegian. Android only for now.
+> Penlet is an app to fill in, sign and organise PDFs on your phone (Android first, iPhone in the works). Fill in real form fields, or let Penlet find the boxes and lines in flat and photographed forms. Add text, crosses, ticks and dates, draw your signature or photograph it from paper, search and highlight, move and rotate pages, and take pictures of paper documents that become searchable PDFs. No account, no ads, no tracking, and the app does not request internet access: documents, drafts and the signature stay on the phone. Available in 11 languages: English, Norwegian, Swedish, Danish, Finnish, German, Spanish, French, Portuguese, Italian and Dutch.
 
 ## Pages
 
 - [Penlet (English)](https://penlet.app/en/): features and FAQ
 - [Penlet (norsk)](https://penlet.app/): funksjoner og spørsmål og svar
-- [Privacy policy](https://penlet.app/en/privacy/): what is stored on the phone and which Google services are used
+- [Privacy policy](https://penlet.app/en/privacy/): what is stored on the phone and how text recognition works
 - [Personvernerklæring](https://penlet.app/personvern/)
 
 ## Facts
 
-- The signature is a hand-drawn signature placed in the PDF. It is not a certificate-based electronic signature.
-- The original file is never changed; Penlet always saves a new PDF.
-- Contact: hei@penlet.app
+- The signature is a hand-drawn (or photographed) signature placed in the PDF. It is not a certificate-based electronic signature.
+- The original file is never changed; Penlet always saves a new copy, "name (Penlet).pdf", in the folder you choose.
+- Text recognition for photographed documents runs on the phone in Google Play services (ML Kit); images are not sent to Google.
+- Made by Trolda AS, Norway. Contact: hei@penlet.app

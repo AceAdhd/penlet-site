@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Penlet – fill in and sign PDFs on your phone</title>
-<meta name="description" content="Fill in PDF forms, tick boxes and sign with your finger on Android. No account – everything stays on your phone.">
+<title>Penlet – fill in, sign and organise PDFs on your phone</title>
+<meta name="description" content="Fill in forms, sign with your finger and tidy up the pages – all on your phone. No account, no ads, nothing uploaded. Available in 11 languages.">
 <link rel="canonical" href="https://penlet.app/en/">
 <link rel="alternate" hreflang="nb" href="https://penlet.app/">
 <link rel="alternate" hreflang="en" href="https://penlet.app/en/">
@@ -22,12 +22,12 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="nb_NO">
 <meta property="og:url" content="https://penlet.app/en/">
-<meta property="og:title" content="Penlet – fill in and sign PDFs on your phone">
-<meta property="og:description" content="Type, tick and place your signature in a PDF on Android. No account, everything stays on your phone.">
+<meta property="og:title" content="Penlet – fill in, sign and organise PDFs on your phone">
+<meta property="og:description" content="Fill in forms, sign with your finger and tidy up the pages. No account, nothing uploaded.">
 <meta property="og:image" content="https://penlet.app/assets/og-en.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Penlet: a form on a phone with a name, a date, a tick and a hand-drawn signature.">
+<meta property="og:image:alt" content="Penlet: a form on a phone with a name, a date, a cross and a hand-drawn signature.">
 <meta name="twitter:card" content="summary_large_image">
 
 <script type="application/ld+json">
@@ -60,26 +60,37 @@
       "@id": "https://penlet.app/#app",
       "name": "Penlet",
       "url": "https://penlet.app/en/",
-      "description": "Android app to fill in PDF forms, tick boxes and place a hand-drawn signature. No account, documents stay on the phone.",
+      "description": "App to fill in, sign and organise PDFs on your phone. Real and flat forms, a signature drawn or photographed, pictures of paper documents turned into searchable PDFs. No account, nothing uploaded.",
       "operatingSystem": "Android",
       "applicationCategory": "BusinessApplication",
       "inLanguage": [
+        "en",
         "nb",
-        "en"
+        "sv",
+        "da",
+        "fi",
+        "de",
+        "es",
+        "fr",
+        "pt",
+        "it",
+        "nl"
       ],
       "image": "https://penlet.app/assets/icon-512.png",
       "publisher": {
         "@id": "https://penlet.app/#org"
       },
       "featureList": [
-        "Fill in PDF forms and real form fields",
-        "Draw your signature and place it in a PDF",
-        "Scan a signature from paper",
-        "Date with calendar, cross and tick",
-        "My details from an optional profile",
-        "Scan documents to PDF",
-        "Password-protected PDFs",
-        "Always saves a new PDF, the original is never changed"
+        "Fill in real PDF forms: text fields, checkboxes, radio buttons and lists",
+        "Finds the boxes and lines in flat and photographed forms",
+        "Text, crosses, ticks and dates anywhere",
+        "Signature drawn with your finger or photographed from paper",
+        "Take pictures of paper documents, several pages in one go, as a searchable PDF",
+        "Search the text, including in photographed documents",
+        "Highlight text and draw freehand",
+        "Move, rotate, delete and add pages",
+        "Opens password-protected PDFs",
+        "The original is never changed – always saves a new copy in the folder you choose"
       ]
     },
     {
@@ -92,23 +103,23 @@
           "name": "How do I sign a PDF on my phone?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Open the PDF in Penlet, tap “Signature” and draw your signature with your finger. Drag it into place, make it bigger or smaller, and save. You can also scan your signature from a sheet of paper. It’s saved on your phone, so next time it takes one tap."
+            "text": "Open the PDF in Penlet, tap “Sign” and draw your signature with your finger. Drag it into place, make it bigger or smaller, and save. You can also take a picture of your signature on a sheet of paper – Penlet cuts it out and removes the paper. Your signature is kept on your phone, so next time it takes one tap."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I fill in a PDF form on my phone?",
+          "name": "My form has no fields to tap. Can I still fill it in?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If the form has fillable fields, tap a field and type. If it doesn’t, tap where the text should go. With “My details” you add your name, address and phone with one tap."
+            "text": "Yes. Penlet finds the boxes and lines in a printed form by itself, so you just tap them and type. It works on forms you have photographed too. If it misses a field, tap where the text should go and type."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I scan a document to PDF?",
+          "name": "Can I turn a sheet of paper into a PDF?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tap “Scan document” on the start screen and photograph the pages. Edges are found automatically, and several pages become one PDF you can fill in, sign and share."
+            "text": "Yes. Tap “Take a picture of a document” and photograph the sheets, several pages in one go. Penlet finds the sheet, straightens it, cleans up the background and makes a PDF you can search, fill in, sign and share."
           }
         },
         {
@@ -129,10 +140,18 @@
         },
         {
           "@type": "Question",
+          "name": "Does the app need internet access?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The app does not even request internet access, and your documents never leave your phone. The one exception is text recognition in photographed documents: it runs on the phone inside Google Play services, but the first time Google may download the language model."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Is the original file changed?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Penlet always saves a new PDF, for example “contract (signed).pdf”. The original stays untouched."
+            "text": "No. Penlet always saves a new copy, for example “contract (Penlet).pdf”, in the folder you choose. The original stays untouched."
           }
         },
         {
@@ -140,7 +159,7 @@
           "name": "Is Penlet available for iPhone?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not yet. Penlet is for Android. We plan an iPhone version later."
+            "text": "Not yet. Penlet comes to Android first. An iPhone version is in the works."
           }
         }
       ]
@@ -172,7 +191,7 @@
   <div class="wrap">
     <div>
       <h1>Fill in and sign PDFs <em>on your phone.</em></h1>
-      <p class="lead">Penlet is an Android app. Open the form, type what’s missing, tick the boxes and add your signature. Penlet saves a new PDF you can share right away. The original is never changed.</p>
+      <p class="lead">Penlet opens any PDF on Android. Fill in the form, add your signature and tidy up the pages. Then save a new copy and share it right away. The original is never changed, and nothing is uploaded.</p>
       <div class="cta">
         <!-- Replace with the Google Play link when the app is published -->
         <span class="btn btn-soon" aria-disabled="true">
@@ -184,7 +203,7 @@
       <ul class="promises">
         <li>No account</li>
         <li>No ads</li>
-        <li>Your documents stay on your phone</li>
+        <li>No internet access</li>
       </ul>
     </div>
 
@@ -196,7 +215,7 @@
             <p class="title">CONSENT FORM</p>
             <div class="field f1"><span>Name</span><b><span>Kari Nordmann</span></b></div>
             <div class="field f2"><span>Address</span><b><span>12 Market Street</span></b></div>
-            <div class="field f3"><span>Date</span><b><span>23 Oct 2026</span></b></div>
+            <div class="field f3"><span>Date</span><b><span>28 Oct 2026</span></b></div>
             <div class="consent">
               <span class="box"><svg viewBox="0 0 22 22"><path d="M5 5l12 12" pathLength="1" stroke-width="2.4" stroke-linecap="round"/><path d="M17 5L5 17" pathLength="1" stroke-width="2.4" stroke-linecap="round"/></svg></span>
               I have read and accept the terms
@@ -209,7 +228,7 @@
             <div><svg viewBox="0 0 24 24"><path d="M5 6V4h14v2M12 4v16M9 20h6"/></svg>Text</div>
             <div><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8l8 8M16 8l-8 8"/></svg>Cross</div>
             <div><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>Date</div>
-            <div class="on"><svg viewBox="0 0 24 24"><path d="M3 17c3-5 5-7 6-5s-2 6 1 5 4-6 6-6 0 5 2 5 2-2 3-3M14 4l4 4-7 7H7v-4l7-7Z"/></svg>Signature</div>
+            <div class="on"><svg viewBox="0 0 24 24"><path d="M3 17c3-5 5-7 6-5s-2 6 1 5 4-6 6-6 0 5 2 5 2-2 3-3M14 4l4 4-7 7H7v-4l7-7Z"/></svg>Sign</div>
           </div>
         </div>
       </div>
@@ -224,10 +243,10 @@
     </div>
     <div class="steps">
       <ol>
-        <li><span class="n">01</span><h3>Open</h3><p>Open the PDF from email, messages, Drive or your files. Or scan a sheet of paper.</p></li>
-        <li><span class="n">02</span><h3>Fill in</h3><p>Type text, pick a date in the calendar and tick the boxes.</p></li>
-        <li><span class="n">03</span><h3>Sign</h3><p>Draw your signature with your finger, or scan it from paper.</p></li>
-        <li><span class="n">04</span><h3>Save</h3><p>Preview, save as a new PDF and share it straight from the app.</p></li>
+        <li><span class="n">01</span><h3>Open</h3><p>From email, messages or your files, or with “Share” from another app. Or take a picture of a sheet of paper – several pages in one go.</p></li>
+        <li><span class="n">02</span><h3>Fill in</h3><p>Real form fields you fill in directly. In flat and photographed forms, Penlet finds the boxes and lines by itself.</p></li>
+        <li><span class="n">03</span><h3>Sign</h3><p>Draw your signature with your finger, or take a picture of it on paper. Penlet removes the paper.</p></li>
+        <li><span class="n">04</span><h3>Save and share</h3><p>Save a new copy in the folder you choose, and share it with any app.</p></li>
       </ol>
     </div>
   </div>
@@ -236,22 +255,22 @@
 <section class="section features" id="features" aria-labelledby="features-title">
   <div class="wrap">
     <div class="section-head">
-      <h2 id="features-title">Everything a form needs. Nothing more.</h2>
+      <h2 id="features-title">Everything a document needs. Nothing more.</h2>
       <p>Big buttons with labels and no menus to dig through. Made so anyone gets it right the first time.</p>
     </div>
     <ul class="checklist">
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>My details</h3><p>Enter your name, address, postcode, phone and email once, then add them with one tap. Optional, and only on your phone.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Date with a calendar</h3><p>Today’s date is suggested. Tap to choose another day in the month view.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Cross and tick</h3><p>Tap the boxes you want to mark, with a cross or a tick.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Signature, drawn or scanned</h3><p>Draw with your finger across the whole screen, or scan your signature from paper. The paper and shadows are removed automatically.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Real form fields</h3><p>If the PDF has fillable fields, you fill them in directly. Otherwise, tap where the text should go.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Password-protected PDFs</h3><p>Enter the password and fill in as usual.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Undo, redo and drafts</h3><p>Everything you add is kept as you work. It doesn’t disappear if you rotate the phone or close the app.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Preview before saving</h3><p>See exactly how the new PDF will look, and go back if something needs fixing.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>The original is never changed</h3><p>Penlet always saves a new PDF. The file you received stays untouched.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Scan documents</h3><p>Photograph one or more sheets with Google’s document scanner. Edges are found automatically, and the pages become one PDF.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Share anywhere</h3><p>Send to email, messages or Drive from Android’s usual share menu. No extra sign-in.</p></div></li>
-      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>English and Norwegian</h3><p>The whole app is available in English and Norwegian.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Real form fields</h3><p>If the PDF has fillable fields, you fill them in directly: text fields, checkboxes, radio buttons and lists.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Flat forms too</h3><p>Penlet finds the boxes and lines in a printed form, so you just tap and type. Works on paper forms you have photographed as well.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Text, cross, tick and date</h3><p>Place them anywhere. Pick the date in a calendar, written the way your phone writes dates.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Signature, drawn or photographed</h3><p>Draw with your finger across the whole screen, or take a picture of your signature on a sheet of paper. Penlet cuts it out and removes the paper. It is kept on your phone for next time.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Take pictures of documents</h3><p>Photograph a paper document, several pages in one go. The sheet is found, straightened and cleaned up, and the PDF gets text you can search.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Search the text</h3><p>Find the word you are looking for, including in documents you have photographed.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Highlight and draw</h3><p>Highlight text line by line, or draw freehand with your finger.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Tidy up the pages</h3><p>Move, rotate and delete pages. Add pages from another PDF, or take pictures of more.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Everything can be changed afterwards</h3><p>Whatever you have placed can be moved, resized and deleted. Undo if you slip. Your draft waits until you are done, even if you close the app.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>Password-protected PDFs</h3><p>Enter the password and work as usual. The copy you save keeps the same password. The password is never stored.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>The original is never changed</h3><p>Penlet always saves a new copy, “name (Penlet).pdf”, in the folder you choose. Share it with any app.</p></div></li>
+      <li><span class="tick" aria-hidden="true"><svg viewBox="0 0 20 20"><path pathLength="1" d="M4 4l12 12M16 4L4 16"/></svg></span><div><h3>11 languages</h3><p>English, Norwegian, Swedish, Danish, Finnish, German, Spanish, French, Portuguese, Italian and Dutch. The app follows your phone’s language.</p></div></li>
     </ul>
   </div>
 </section>
@@ -260,14 +279,15 @@
   <div class="wrap">
     <div>
       <h2 id="privacy-title">Your documents stay with you.</h2>
-      <p class="intro">Forms often hold your name, address and signature. That’s why Penlet keeps everything in the app on your phone, and nothing is uploaded to us.</p>
+      <p class="intro">Forms often hold your name, address and signature. That’s why everything happens on your phone. Penlet does not even request internet access.</p>
       <a href="/en/privacy/">Read the full privacy policy</a>
     </div>
     <dl class="facts">
       <div><dt>No account</dt><dd>Open the app and start. No sign-in and no email address.</dd></div>
-      <div><dt>Stored only on your phone</dt><dd>Profile, signature and drafts live in the app’s private storage and are kept out of cloud backups.</dd></div>
-      <div><dt>No tracking and no ads</dt><dd>The app has no analytics and no advertising.</dd></div>
-      <div><dt>Delete everything with one tap</dt><dd>“Delete all my data” removes your profile, signature, drafts and lists from the phone.</dd></div>
+      <div><dt>Nothing is uploaded</dt><dd>The app has no internet access. Your documents never leave your phone.</dd></div>
+      <div><dt>No tracking and no ads</dt><dd>No analytics, no advertising.</dd></div>
+      <div><dt>Kept out of the cloud</dt><dd>Drafts and your signature live in the app’s private storage and are not included in Google’s backup.</dd></div>
+      <div><dt>Text recognition on the phone</dt><dd>Photographed documents are read by Google Play services on the phone. The images are not sent to Google.</dd></div>
     </dl>
   </div>
 </section>
@@ -284,8 +304,9 @@
       <li>Insurance claim</li>
       <li>Contract and timesheet</li>
       <li>Power of attorney</li>
+      <li>Cancellation form</li>
       <li>Registration form</li>
-      <li>Receipt for a sale</li>
+      <li>A paper form someone handed you</li>
     </ul>
   </div>
 </section>
@@ -298,15 +319,15 @@
     <div class="faq">
       <details>
         <summary>How do I sign a PDF on my phone?</summary>
-        <div><p>Open the PDF in Penlet, tap “Signature” and draw your signature with your finger. Drag it into place, make it bigger or smaller, and save.</p><p>You can also scan your signature from a sheet of paper. It’s saved on your phone, so next time it takes one tap.</p></div>
+        <div><p>Open the PDF in Penlet, tap “Sign” and draw your signature with your finger. Drag it into place, make it bigger or smaller, and save.</p><p>You can also take a picture of your signature on a sheet of paper – Penlet cuts it out and removes the paper. Your signature is kept on your phone, so next time it takes one tap.</p></div>
       </details>
       <details>
-        <summary>Can I fill in a PDF form on my phone?</summary>
-        <div><p>Yes. If the form has fillable fields, tap a field and type. If it doesn’t, tap where the text should go. With “My details” you add your name, address and phone with one tap.</p></div>
+        <summary>My form has no fields to tap. Can I still fill it in?</summary>
+        <div><p>Yes. Penlet finds the boxes and lines in a printed form by itself, so you just tap them and type. It works on forms you have photographed too. If it misses a field, tap where the text should go and type.</p></div>
       </details>
       <details>
-        <summary>How do I scan a document to PDF?</summary>
-        <div><p>Tap “Scan document” on the start screen and photograph the pages. Edges are found automatically, and several pages become one PDF you can fill in, sign and share.</p></div>
+        <summary>Can I turn a sheet of paper into a PDF?</summary>
+        <div><p>Yes. Tap “Take a picture of a document” and photograph the sheets, several pages in one go. Penlet finds the sheet, straightens it, cleans up the background and makes a PDF you can search, fill in, sign and share.</p></div>
       </details>
       <details>
         <summary>Is a drawn signature valid?</summary>
@@ -317,12 +338,16 @@
         <div><p>No. Penlet has no account and no sign-in. Open the app and start.</p></div>
       </details>
       <details>
+        <summary>Does the app need internet access?</summary>
+        <div><p>No. The app does not even request internet access, and your documents never leave your phone.</p><p>The one exception is text recognition in photographed documents: it runs on the phone inside Google Play services, but the first time Google may download the language model.</p></div>
+      </details>
+      <details>
         <summary>Is the original file changed?</summary>
-        <div><p>No. Penlet always saves a new PDF, for example “contract (signed).pdf”. The original stays untouched.</p></div>
+        <div><p>No. Penlet always saves a new copy, for example “contract (Penlet).pdf”, in the folder you choose. The original stays untouched.</p></div>
       </details>
       <details>
         <summary>Is Penlet available for iPhone?</summary>
-        <div><p>Not yet. Penlet is for Android. We plan an iPhone version later.</p></div>
+        <div><p>Not yet. Penlet comes to Android first. An iPhone version is in the works.</p></div>
       </details>
     </div>
   </div>
@@ -344,8 +369,8 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>© 2026 Penlet · <a href="mailto:hei@penlet.app">hei@penlet.app</a></span>
-    <nav aria-label="Footer">
+    <span>© 2026 Trolda AS · <a href="mailto:hei@penlet.app">hei@penlet.app</a></span>
+    <nav aria-label="Footer menu">
       <a href="/en/privacy/">Privacy</a>
       <a href="/" hreflang="nb" lang="nb">Norsk</a>
     </nav>
