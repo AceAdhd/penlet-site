@@ -14,4 +14,4 @@
 - The signature is a hand-drawn (or photographed) signature placed in the PDF. It is not a certificate-based electronic signature.
 - The original file is never changed; Penlet always saves a new copy, "name (Penlet).pdf", in the folder you choose.
 - Text recognition for photographed documents runs on the phone in Google Play services (ML Kit); images are not sent to Google.
-- Made by Trolda AS, Norway. Contact: hei@penlet.app
+- Made by Trolda AS, Norway. Contact: support@penlet.app

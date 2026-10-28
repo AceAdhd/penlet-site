@@ -51,5 +51,5 @@ Bytt ut `<span class="btn btn-soon">` i `public/index.html` og `public/en/index.
 - Personvernerklæringen er den samme som `store/personvern.md` og `store/privacy.md` i app-repoet (pluss avsnitt om krasjrapporter, kontakt, nettstedet og rettigheter). Endres det hva appen lagrer eller sender, må begge steder oppdateres samtidig, og datoen øverst endres.
 - Funksjonslisten følger butikkteksten i `store/play-listing.md` i app-repoet. Ordet «skann» brukes ikke: skriv «ta bilde av».
 - Ingen priser på siden før prismodellen er bestemt.
-- Utviklernavnet i «Hvem som står bak» (Trolda AS) må være det samme som i Google Play Console. Kontaktadressen på siden er hei@penlet.app; butikkens `privacy.md` har d.solberg@outlook.com – velg én før innsending.
+- Utviklernavnet i «Hvem som står bak» (Trolda AS) må være det samme som i Google Play Console. Kontaktadressen er support@penlet.app (alias på daniel@trolda.com i Zoho) – samme som i butikkens `privacy.md`/`personvern.md` og Play Console.
 - Ordlyd om signatur: «Tegn signaturen din og sett den inn i en PDF.» Ikke «juridisk bindende» eller lignende.
