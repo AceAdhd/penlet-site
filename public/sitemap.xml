@@ -2,30 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://penlet.app/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/"/>
   </url>
   <url>
     <loc>https://penlet.app/en/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/"/>
   </url>
   <url>
     <loc>https://penlet.app/personvern/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/personvern/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/privacy/"/>
   </url>
   <url>
     <loc>https://penlet.app/en/privacy/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/personvern/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://penlet.app/signere-pdf-pa-mobilen/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/signere-pdf-pa-mobilen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/sign-pdf-on-phone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/sign-pdf-on-phone/"/>
+  </url>
+  <url>
+    <loc>https://penlet.app/en/sign-pdf-on-phone/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/signere-pdf-pa-mobilen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/sign-pdf-on-phone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/sign-pdf-on-phone/"/>
+  </url>
+  <url>
+    <loc>https://penlet.app/fylle-ut-pdf-skjema-pa-mobilen/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/fylle-ut-pdf-skjema-pa-mobilen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/fill-in-pdf-form-on-phone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/fill-in-pdf-form-on-phone/"/>
+  </url>
+  <url>
+    <loc>https://penlet.app/en/fill-in-pdf-form-on-phone/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/fylle-ut-pdf-skjema-pa-mobilen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/fill-in-pdf-form-on-phone/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/fill-in-pdf-form-on-phone/"/>
+  </url>
+  <url>
+    <loc>https://penlet.app/ta-bilde-av-dokument-til-pdf/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/ta-bilde-av-dokument-til-pdf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/photo-to-pdf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/photo-to-pdf/"/>
+  </url>
+  <url>
+    <loc>https://penlet.app/en/photo-to-pdf/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://penlet.app/ta-bilde-av-dokument-til-pdf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://penlet.app/en/photo-to-pdf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://penlet.app/en/photo-to-pdf/"/>
   </url>
 </urlset>

@@ -387,3 +387,12 @@ section { scroll-margin-top: 16px; }
 }
 
 @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+/* ---------- Answer pages ---------- */
+
+.doc .answer { font-size: clamp(1.15rem, 2.2vw, 1.3rem); margin: 22px 0 0; max-width: 36em; }
+.doc ol { padding-left: 1.4em; }
+.doc ol li { margin-bottom: 10px; }
+.doc .get { margin-top: 48px; }
+.doc .get .cta { margin-top: 16px; }
+.doc .related li { margin-bottom: 8px; }

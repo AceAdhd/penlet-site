@@ -9,6 +9,15 @@
 - [Privacy policy](https://penlet.app/en/privacy/): what is stored on the phone and how text recognition works
 - [Personvernerklæring](https://penlet.app/personvern/)
 
+## Answers
+
+- [How do I sign a PDF on my phone?](https://penlet.app/en/sign-pdf-on-phone/)
+- [How do I fill in a PDF form on my phone?](https://penlet.app/en/fill-in-pdf-form-on-phone/): also flat forms with no fields
+- [How do I turn a paper document into a PDF with my phone?](https://penlet.app/en/photo-to-pdf/)
+- [Hvordan signerer jeg en PDF på mobilen?](https://penlet.app/signere-pdf-pa-mobilen/)
+- [Hvordan fyller jeg ut et PDF-skjema på mobilen?](https://penlet.app/fylle-ut-pdf-skjema-pa-mobilen/)
+- [Hvordan gjør jeg et papirdokument om til PDF med mobilen?](https://penlet.app/ta-bilde-av-dokument-til-pdf/)
+
 ## Facts
 
 - The signature is a hand-drawn (or photographed) signature placed in the PDF. It is not a certificate-based electronic signature.

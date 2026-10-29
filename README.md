@@ -8,6 +8,7 @@ Nettsiden for appen Penlet (PDF: fylle ut, signere og ordne sider; appen ligger 
   - `index.html` – forsiden på norsk
   - `personvern/` – personvernerklæringen (lenkes fra Google Play)
   - `en/` og `en/privacy/` – engelsk
+  - svarsider (ett spørsmål per side): `signere-pdf-pa-mobilen/`, `fylle-ut-pdf-skjema-pa-mobilen/`, `ta-bilde-av-dokument-til-pdf/` og de engelske under `en/`. **Lages av `python tools/make-answers.py`** – endre teksten der, ikke i HTML-en. Knappenavnene skal være de samme som i appen (`src/i18n/nb.ts`/`en.ts`). Ny svarside: legg den i skriptet, i `sitemap.xml`, `llms.txt` og bunnmenyen på forsidene.
   - `404.html`, `robots.txt`, `sitemap.xml`, `site.webmanifest`, `llms.txt`
   - `<nøkkel>.txt` – IndexNow-nøkkelen (samme som `tools/indexnow-key.txt`)
   - `assets/` – stilark, skrifter (lokale, OFL), ikon og delingsbilder
